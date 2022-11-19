@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "npx tsc && node dist/index.js",
+    "dev": "nodemon --exec 'ts-node app/core/index.ts'"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "grammy": "^1.12.0",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
